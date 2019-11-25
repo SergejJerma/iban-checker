@@ -5,9 +5,9 @@ Programa patikrina IBAN numerius.
 ## Pradžia
 
 Programa paleidžiama iš .jar failo
-* [iban-checker-0.0.1-SNAPSHOT.jar](http://NUORODA) 
+* [iban-checker.jar](https://github.com/SergejJerma/iban-checker/blob/master/iban-checker/iban-checker.jar) 
 ```
-java -jar iban-checker-0.0.1-SNAPSHOT.jar
+java -jar iban-checker.jar
 ```
 
 ### Back-end
