@@ -47,7 +47,7 @@ xmlns:gs="http://serjer.com/iban">
 </soapenv:Envelope>
 
 ```
-gaunamas rezultas:
+gaunamas rezultatas:
 ```
 HTTP/1.1 200 
 Accept=text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
