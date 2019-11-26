@@ -7,7 +7,7 @@ Servisas (SOAP) patikrina IBAN numerius.
 Servisas paleidžiamas iš .jar failo
 * [iban-checker-soap.jar](https://github.com/SergejJerma/iban-checker/blob/master/iban-checker-soap-1/iban-checker-soap.jar) 
 ```
-java -jar iban-checker-rest.jar
+java -jar iban-checker-soap.jar
 ```
 
 ### Back-end
