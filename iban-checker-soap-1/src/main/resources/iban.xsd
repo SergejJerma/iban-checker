@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://serjer.com/iban"
+	xmlns:tns="http://serjer.com/iban" elementFormDefault="qualified">
+
+
+
+  <xs:element name="IbansRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ibans" type="tns:iban" minOccurs="0" maxOccurs="unbounded"></xs:element>                <xs:element name="ibanNumber" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="IbansResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ibans" type="tns:iban"  minOccurs="0" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="iban">
+        <xs:sequence>
+            <xs:element name="ibanNumber" type="xs:string" minOccurs="0" />
+            <xs:element name="isValid" type="xs:boolean" minOccurs="0"/>
+       </xs:sequence>
+    </xs:complexType>
+
+
+</xs:schema>
