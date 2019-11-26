@@ -40,7 +40,7 @@ Paleidus programą bei pateikus POST metodu per Postman IBAN sąrašą:
 	}
 ]
 ```
-gaunamas rezultas:
+gaunamas rezultatas:
 ```
 [
     {
