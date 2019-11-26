@@ -61,20 +61,20 @@ SOAP-ENV:Header/>
 <SOAP-ENV:Body>
 <ns2:IbansResponse xmlns:ns2="http://serjer.com/iban">
 <ns2:ibans>
-<ns2:ibanNumber>AA051245445454552117989</ns2:ibanNumber>
-<ns2:isValid>false</ns2:isValid></ns2:ibans>
+  <ns2:ibanNumber>AA051245445454552117989</ns2:ibanNumber>
+  <ns2:isValid>false</ns2:isValid></ns2:ibans>
 <ns2:ibans>
-<ns2:ibanNumber>LT647044001231465456</ns2:ibanNumber>
-<ns2:isValid>true</ns2:isValid></ns2:ibans>
+  <ns2:ibanNumber>LT647044001231465456</ns2:ibanNumber>
+  <ns2:isValid>true</ns2:isValid></ns2:ibans>
 <ns2:ibans>
-<ns2:ibanNumber>LT517044077788877777</ns2:ibanNumber>
-<ns2:isValid>true</ns2:isValid></ns2:ibans>
+  <ns2:ibanNumber>LT517044077788877777</ns2:ibanNumber>
+  <ns2:isValid>true</ns2:isValid></ns2:ibans>
 <ns2:ibans>
-<ns2:ibanNumber>LT227044077788877777</ns2:ibanNumber>
-<ns2:isValid>false</ns2:isValid></ns2:ibans>
+  <ns2:ibanNumber>LT227044077788877777</ns2:ibanNumber>
+  <ns2:isValid>false</ns2:isValid></ns2:ibans>
 <ns2:ibans>
-<ns2:ibanNumber>CC051245445454552117989</ns2:ibanNumber
-><ns2:isValid>false</ns2:isValid>
+  <ns2:ibanNumber>CC051245445454552117989</ns2:ibanNumber>
+  <ns2:isValid>false</ns2:isValid>
 </ns2:ibans>
 </ns2:IbansResponse>
 </SOAP-ENV:Body>
