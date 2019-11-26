@@ -40,7 +40,7 @@ Paleidus programą bei pateikus POST metodu per Postman IBAN sąrašą:
 	}
 ]
 ```
-gaunamas rezultas:
+gaunamas rezultatas:
 ```
 [
     {
@@ -67,7 +67,7 @@ gaunamas rezultas:
 ```
 ## IBAN tikrinimo algoritmas
 
-* iš vartotojo įvesto IBAN numerio pašalinami visi tušti tarpai.
+* iš sąraše pateikto IBAN numerio pašalinami visi tušti tarpai, jei tokie egzistuoja.
 * tikrinamas IBAN ilgis - ar daugiau nei 4 ir mažiau 35, jei taip,
 * tikrinami pirmi du IBAN simboliai, ar atitinka valstybės kodą, jei taip,
 * tikrinama modifikuoto IBAN dalyba iš 97, ar liekana lygi 1, jei taip,
