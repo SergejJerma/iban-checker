@@ -20,7 +20,7 @@ Maven 3.6.1
 
 ### Programos veikimo pavyzdys
 
-Paleidus programą bei pateikus POST metodu per SoapUI IBAN sąrašą:
+Paleidus programą bei  į http://localhost:8080/check pateikus POST metodu per SoapUI IBAN sąrašą:
 ```
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
 xmlns:gs="http://serjer.com/iban">
